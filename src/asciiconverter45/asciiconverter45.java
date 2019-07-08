@@ -27,7 +27,7 @@ import javax.swing.UnsupportedLookAndFeelException;
 public class asciiconverter45 {
   private boolean packFrame = false;
 
-  // Construct the application
+  // Construct the application.
   public asciiconverter45() {
     frmMain frame = new frmMain();
     // Validate frames that have preset sizes
