@@ -11,7 +11,7 @@ Written in Java, using swing and AWT. Currently, this has been tested against Ja
 Here's a rough description of what's in these directories.
 
     .
-    ├── bin             # Class files and resources
+    ├── bin             # Class files and resources. Generated when cleaning/building project.
     |   ├── Icon.png
     |   └── Java.class
     ├── resources       # Resources
