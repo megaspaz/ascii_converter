@@ -37,7 +37,7 @@ import javax.swing.event.ChangeEvent;
  * <p>
  * Company:
  * </p>
- * 
+ *
  * @author Megaspaz
  * @version 4.5
  */
@@ -359,6 +359,7 @@ public class frmMain extends JFrame {
   }
 
   // Overridden so we can exit when window is closed
+  @Override
   protected void processWindowEvent(WindowEvent e) {
     super.processWindowEvent(e);
     if (e.getID() == WindowEvent.WINDOW_CLOSING) {
@@ -658,6 +659,7 @@ class frmMain_jButtonClearAll_actionAdapter implements java.awt.event.ActionList
     this.adaptee = adaptee;
   }
 
+  @Override
   public void actionPerformed(ActionEvent e) {
     adaptee.jButtonClearAll_actionPerformed(e);
   }
@@ -670,6 +672,7 @@ class frmMain_jButtonExit_actionAdapter implements java.awt.event.ActionListener
     this.adaptee = adaptee;
   }
 
+  @Override
   public void actionPerformed(ActionEvent e) {
     adaptee.jButtonExit_actionPerformed(e);
   }
@@ -682,6 +685,7 @@ class frmMain_jButtonAtoB_actionAdapter implements java.awt.event.ActionListener
     this.adaptee = adaptee;
   }
 
+  @Override
   public void actionPerformed(ActionEvent e) {
     adaptee.jButtonAtoB_actionPerformed(e);
   }
@@ -694,6 +698,7 @@ class frmMain_jButtonClear1_actionAdapter implements java.awt.event.ActionListen
     this.adaptee = adaptee;
   }
 
+  @Override
   public void actionPerformed(ActionEvent e) {
     adaptee.jButtonClear1_actionPerformed(e);
   }
@@ -706,6 +711,7 @@ class frmMain_jButtonBtoA_actionAdapter implements java.awt.event.ActionListener
     this.adaptee = adaptee;
   }
 
+  @Override
   public void actionPerformed(ActionEvent e) {
     adaptee.jButtonBtoA_actionPerformed(e);
   }
@@ -718,6 +724,7 @@ class frmMain_jButtonClear2_actionAdapter implements java.awt.event.ActionListen
     this.adaptee = adaptee;
   }
 
+  @Override
   public void actionPerformed(ActionEvent e) {
     adaptee.jButtonClear2_actionPerformed(e);
   }
@@ -730,6 +737,7 @@ class frmMain_jButtonAtoH_actionAdapter implements java.awt.event.ActionListener
     this.adaptee = adaptee;
   }
 
+  @Override
   public void actionPerformed(ActionEvent e) {
     adaptee.jButtonAtoH_actionPerformed(e);
   }
@@ -742,6 +750,7 @@ class frmMain_jButtonClear3_actionAdapter implements java.awt.event.ActionListen
     this.adaptee = adaptee;
   }
 
+  @Override
   public void actionPerformed(ActionEvent e) {
     adaptee.jButtonClear3_actionPerformed(e);
   }
@@ -754,6 +763,7 @@ class frmMain_jButtonHtoA_actionAdapter implements java.awt.event.ActionListener
     this.adaptee = adaptee;
   }
 
+  @Override
   public void actionPerformed(ActionEvent e) {
     adaptee.jButtonHtoA_actionPerformed(e);
   }
@@ -766,6 +776,7 @@ class frmMain_jButtonClear4_actionAdapter implements java.awt.event.ActionListen
     this.adaptee = adaptee;
   }
 
+  @Override
   public void actionPerformed(ActionEvent e) {
     adaptee.jButtonClear4_actionPerformed(e);
   }
@@ -778,6 +789,7 @@ class frmMain_jTabbedPane1_changeAdapter implements javax.swing.event.ChangeList
     this.adaptee = adaptee;
   }
 
+  @Override
   public void stateChanged(ChangeEvent e) {
     adaptee.jTabbedPane1_stateChanged(e);
   }
@@ -790,6 +802,7 @@ class frmMain_jMenuFileExit_actionAdapter implements java.awt.event.ActionListen
     this.adaptee = adaptee;
   }
 
+  @Override
   public void actionPerformed(ActionEvent e) {
     adaptee.jMenuFileExit_actionPerformed(e);
   }
@@ -802,6 +815,7 @@ class frmMain_jMenuHelpUse_actionAdapter implements java.awt.event.ActionListene
     this.adaptee = adaptee;
   }
 
+  @Override
   public void actionPerformed(ActionEvent e) {
     adaptee.jMenuHelpUse_actionPerformed(e);
   }
@@ -814,6 +828,7 @@ class frmMain_jMenuHelpAbout_actionAdapter implements java.awt.event.ActionListe
     this.adaptee = adaptee;
   }
 
+  @Override
   public void actionPerformed(ActionEvent e) {
     adaptee.jMenuHelpAbout_actionPerformed(e);
   }
