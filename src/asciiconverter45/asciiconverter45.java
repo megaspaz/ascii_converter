@@ -20,7 +20,7 @@ import javax.swing.UnsupportedLookAndFeelException;
  * <p>
  * Company:
  * </p>
- * 
+ *
  * @author Megaspaz
  * @version 4.5
  */

@@ -15,7 +15,7 @@ import java.nio.BufferOverflowException;
  * <p>
  * Company:
  * </p>
- * 
+ *
  * @author Megaspaz
  * @version 4.5
  */
