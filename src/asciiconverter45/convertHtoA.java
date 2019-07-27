@@ -16,7 +16,7 @@ import java.util.StringTokenizer;
  * <p>
  * Company:
  * </p>
- * 
+ *
  * @author Megaspaz
  * @version 4.5
  */
